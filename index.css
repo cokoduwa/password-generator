@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background: #2b283a;
+    color: #2b283a;
+    font-family: 'Karla', sans-serif;
+}
+
+#container {
+    background: #ecfdf5;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+#generate-pass {
+    background: #10B981;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+
+span {
+    color:#10B981;
+    font-weight: bold;
+}
+
+.password {
+    background: #273549;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: #10B981;
+    width: 150px;
+    text-align: center;
+    height: 20px;
+}
+
+#copy-confirm {
+    padding: 0 70px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.hidden {
+    visibility: hidden;
+}
